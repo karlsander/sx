@@ -20,3 +20,5 @@ Then use it like the jsx prop from Theme UI but import your own file:
 /** @jsx jsx */
 import { jsx } from '../util/jsx';
 ```
+
+The raw css prop is not supported. An interesting possibilty of this approach (not yet implemented) is providing full typescript support, including custom theme values.
